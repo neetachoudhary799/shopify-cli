@@ -170,10 +170,10 @@
           "background": "#e0ddd6",
           "background_gradient": "",
           "text": "#2c2c2a",
-          "button": "#ffffff",
-          "button_label": "#000000",
-          "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "button": "#e0ddd6",
+          "button_label": "#2c2c2a",
+          "secondary_button_label": "#2c2c2a",
+          "shadow": "#2c2c2a"
         }
       },
       "scheme-4": {
