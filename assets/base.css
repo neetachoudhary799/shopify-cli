@@ -1,4 +1,48 @@
+@font-face {
+  font-family: 'EuclidCircularA';
+  src: url('{{ "EuclidCircularA-Regular.woff2" | asset_url }}') format("woff2"),
+       url('{{ "EuclidCircularA-Regular.woff" | asset_url }}') format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EuclidCircularA';
+  src: url('{{ "EuclidCircularA-Bold.woff2" | asset_url }}') format("woff2"),
+       url('{{ "EuclidCircularA-Bold.woff" | asset_url }}') format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: 'EuclidCircularA', sans-serif;
+}
+h1, h2, h3,span {
+  font-family: 'EuclidCircularA', sans-serif;
+  font-weight: 700;
+}
+header.header{
+  padding-top:5px;
+  padding-bottom:5px;
+}
+p.announcement-bar__message.h5 span {
+    font-family: EuclidCircularA, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: .22px;
+}
 :root {
+    --charcoal: #2C2C2A;
+    --bronze: #8A6D4B;
+    --snow: #F4F3F0;
+    --white: #fff;
+    --fail: #822D1A;
+    --moss: #979C8F;
+    --walnut: #45372D;
+    --ivory: #EEECE7;
+    --pearl: #E0DDD6;
+    --sage: #A6AB9F;
+    --neutralslinen: #CAC8BB;
   --alpha-button-background: 1;
   --alpha-button-border: 1;
   --alpha-link: 0.85;
